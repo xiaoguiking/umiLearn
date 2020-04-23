@@ -7,7 +7,11 @@ export default {
       path: '/',
       component: '../layouts/index',
       routes: [
-        { path: '/', component: '../pages/index' }
+        { path: '/', component: '../pages/index' },
+        { exact: true, path: '/user', component: '../pages/user' },
+        { exact: true, path: '/xdb', component: '../pages/xdb' },
+        { path: '/users/:id', component: '../pages/user/[id]' },
+        { component: '../pages/404' },
       ]
     }
   ],
