@@ -36,7 +36,7 @@ class EchartsTest extends Component {
                 }
             }],
             yAxis: [{
-                data: [0,2,4,6,8],
+                // data: [0,2,4,6,8],
                 name: 'y轴',
                 // axisLine: {
                 //     show: false
