@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import style from './style.css';
-import classnames from 'clsssnames';
+import classnames from 'classnames';
 import List from './list';
 
 export default class Switch extends Component {
